@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { Student } from './types';
-import Header from './components/Header';
-import StudentCard from './components/StudentCard';
-import Summary from './components/Summary';
+import { Student } from './types.ts';
+import Header from './components/Header.tsx';
+import StudentCard from './components/StudentCard.tsx';
+import Summary from './components/Summary.tsx';
 
 const initialStudents: Student[] = [
   { id: 1, name: 'Jordan Miller', driveLink: '#', rank: null, percentage: 0, grades: 5, essay: 4, need: 3, activities: 5 },
