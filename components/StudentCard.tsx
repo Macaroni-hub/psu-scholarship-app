@@ -1,6 +1,6 @@
 import React from 'react';
-import { Student } from '../types.ts';
-import DocumentIcon from './icons/DocumentIcon.tsx';
+import { Student } from '../types';
+import DocumentIcon from './icons/DocumentIcon';
 
 interface StudentCardProps {
   student: Student;
